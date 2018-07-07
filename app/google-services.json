@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "609686697629",
+    "firebase_url": "https://phone-geez.firebaseio.com",
+    "project_id": "phone-geez",
+    "storage_bucket": "phone-geez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609686697629:android:a553acbedee0d77e",
+        "android_client_info": {
+          "package_name": "com.ofoegbuvgmail.phonegeek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609686697629-qb52erdq990eehc4crih900go8un3ehi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ofoegbuvgmail.phonegeek",
+            "certificate_hash": "aa272e3bfc04864a79128d1366ae2edb4057f410"
+          }
+        },
+        {
+          "client_id": "609686697629-me5jpbkgmk1csalp2o84vb69g7qka29q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "609686697629-me5jpbkgmk1csalp2o84vb69g7qka29q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8pCkBLhTr0adIoJpBGztbu9RWhkDC4-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609686697629-me5jpbkgmk1csalp2o84vb69g7qka29q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

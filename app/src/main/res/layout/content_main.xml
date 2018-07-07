@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_padding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:padding="@dimen/small_content_padding"
+        android:text="@string/welcome_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_view_large_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/small_content_padding"
+        android:padding="@dimen/small_content_padding"
+        android:text="@string/subtext"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_view_regular_size"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto_medium_italic"
+        android:text="@string/enter_your_budget_and_ram_size_below"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_padding"
+        android:layout_marginTop="@dimen/activity_vertical_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="@dimen/activity_vertical_padding"
+            android:paddingStart="@dimen/small_content_padding"
+            android:text="@string/price_range"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_view_regular_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/from_editText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/text_view_background_white"
+            android:hint="@string/from"
+            android:inputType="number"
+            android:layout_marginEnd="5dp"
+            android:padding="@dimen/small_content_padding" />
+
+        <EditText
+            android:id="@+id/to_editText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/text_view_background_white"
+            android:hint="@string/to"
+            android:inputType="number"
+            android:padding="@dimen/small_content_padding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_padding"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/activity_vertical_padding"
+            android:paddingStart="@dimen/small_content_padding"
+            android:text="@string/ram_size"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_view_regular_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ram_size_editText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large_padding"
+            android:background="@drawable/text_view_background_white"
+            android:hint="@string/in_gb"
+            android:inputType="number"
+            android:padding="@dimen/small_content_padding" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_padding"
+        android:layout_marginStart="@dimen/activity_vertical_padding"
+        android:layout_marginTop="@dimen/activity_vertical_padding"
+        android:background="@drawable/transparent_button_background"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/search"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_view_regular_size" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Phone Geek</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">Welcome to Phone Geek</string>
+    <string name="subtext">Get recommendations on best phones to buy based on your budget.</string>
+    <string name="price_range">Price Range: </string>
+    <string name="ram_size">RAM Size:</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="enter_your_budget_and_ram_size_below">ENTER YOUR BUDGET AND RAM SIZE BELOW.</string>
+    <string name="in_gb">In GB</string>
+    <string name="search">SEARCH</string>
+    <string name="no_phone_found_within_the_price_range">NO PHONE FOUND WITHIN THE PRICE RANGE</string>
+    <string name="internet_error">Network Error, please check your Internet Connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="specifications">Features</string>
+    <string name="done">AM DONE</string>
+</resources>
